@@ -1,8 +1,8 @@
-package com.antares.jinsei.repository;
+package com.antares.jinsei.caveat.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.antares.jinsei.model.Item;
+import com.antares.jinsei.caveat.model.Item;
 
 public interface ItemRepository extends JpaRepository<Item, Long> {
 	
